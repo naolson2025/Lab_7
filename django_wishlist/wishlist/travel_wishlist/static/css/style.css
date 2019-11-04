@@ -4,7 +4,8 @@ span.place-name {
 }
 
 form.visited-form {
-    display: inline;
+    display: inline-block;
+    width: 10%;
 }
 
 div.wishlist-place {
@@ -23,4 +24,16 @@ a.nav-link {
 #add-new-place {
     background-color: blue;
     border: darkviolet;
+}
+
+.delete {
+    background-color: crimson;
+    border-color: darkred;
+}
+
+#site-header {
+    background: url('../img/jtree.jpg') 0 0 repeat-x;
+    color: white;
+    padding: 40px 0 40px 0px;
+    text-align: center;
 }
